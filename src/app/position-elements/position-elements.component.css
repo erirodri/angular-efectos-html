@@ -1,0 +1,20 @@
+.pizarron{
+    width: 100%;
+    background-color: gray;
+    
+    display: flex;
+    flex-direction: column;
+}
+img{
+    opacity: 0;
+    transition: all 1.8s;
+}
+.left{align-items: flex-start;}
+.center{align-items: center;}
+.right{align-items: flex-end;}
+.transform_left{transform: translate(25%,0); opacity: 1;}
+.transform_right{transform: translateX(-25%); opacity: 1;}
+.show{
+    opacity: 1;/*Sin opacidad*/
+    transform: none; /*SIn movimiento*/
+} /* Regresar al estado natural*/

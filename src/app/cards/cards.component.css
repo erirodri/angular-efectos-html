@@ -1,0 +1,43 @@
+.coupleImg{
+    border-radius: 50%;
+}
+.img-right{
+    padding-right: 0;
+}
+.img-left{
+    border-right: 1px solid #ddd;
+    padding-left: 0;
+}
+
+.rounded-circle{
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(0,0,0, 0.06);
+    transition: .02s;
+}
+:hover.rounded-circle{
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0,0,0, 0.06);
+}
+
+.border-esp-heart{
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(248, 37, 146, 0.06);
+    transition: .02s;
+}
+:hover.border-esp-heart{
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(248, 37, 146, 0.2);
+}
+
+/*@media(max-width:640px){
+    .col-sm-1{
+        display: block;
+    }
+    .card {
+        text-align: center !important;
+        align-content: center;
+        justify-content: center;
+    }
+}*/
+
+

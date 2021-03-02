@@ -1,0 +1,18 @@
+img{
+    opacity: 0;
+    transition: all 1.8s;
+}
+.transform_up{ transform: translateY(20%); } /*movimiento de abajo hacia arriba */
+.transform_down{ transform: translateY(-20%); } /*movimiento de arriba hacia abajo */
+.transform_left{ transform: translateX(1000%); } /*movimiento de derecha hacia la izquierda */
+.transform_right{ transform: translateX(-100%); } /*movimiento de izquierda hacia la derecha */
+
+.show{
+    opacity: 1;/*Sin opacidad*/
+    transform: none; /*SIn movimiento*/
+} /* Regresar al estado natural*/
+
+.showLeft{
+    opacity: 1;/*Sin opacidad*/
+    transform: translateX(200%);
+} /* Regresar al estado natural*/
